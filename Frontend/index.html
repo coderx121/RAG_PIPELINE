@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chat System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            RAG Chat System
+            <button id="theme-toggle">🌙</button>
+        </header>
+        <div id="chat-box" class="chat-box"></div>
+        <form id="chat-form">
+            <input id="user-input" type="text" placeholder="Ask a question...">
+            <input id="file-upload" type="file" accept=".pdf">
+            <button type="submit">Send</button>
+        </form>
+        <button id="clear-history">Clear History</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
